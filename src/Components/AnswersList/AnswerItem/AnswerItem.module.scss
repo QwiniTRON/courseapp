@@ -1,0 +1,20 @@
+.answer-item {
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 10px 0;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  &.error{
+    background-color: rgba(255, 0, 0, 0.4);
+  }
+
+  &.succes{
+    background-color: rgba(0, 255, 0, 0.4);
+  }
+}

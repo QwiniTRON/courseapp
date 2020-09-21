@@ -1,0 +1,28 @@
+.finish-quiz{
+  border: 2px solid #fff;
+  border-radius: 6px;
+  padding: 10px;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      font-weight: bold;
+      color: #fff;
+    }
+
+    i.error {
+      color: tomato;
+    }
+
+    i.success{
+      color: lawngreen;
+    }
+  }
+
+  p {
+    color: #fff;
+  }
+}

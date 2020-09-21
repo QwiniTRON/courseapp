@@ -1,0 +1,24 @@
+.auth {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  flex-grow: 1;
+  width: 100%;
+  background: linear-gradient(45deg, bisque, coral);
+  padding: 10px;
+
+  .auth__body {
+    max-width: 600px;
+    width: 100%;
+    padding: 0 20px;
+
+    h2 {
+      text-align: center;
+      color: #fff;
+    }
+  }
+
+  .auth-form {
+    padding: 5px;
+  }
+}
